@@ -1,5 +1,7 @@
 #!/bin/bash
 
+npm update
+
 npm test || exit 1
 
 jake build[,,true]
