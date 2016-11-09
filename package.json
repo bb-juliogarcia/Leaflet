@@ -25,7 +25,7 @@
   "main": "dist/leaflet-src.js",
   "style": "dist/leaflet.css",
   "scripts": {
-    "preinstall": "npm run release",
+    "preinstall": "sh ./build/publish.sh",
     "test": "jake test",
     "build": "jake build",
     "release": "./build/publish.sh"
