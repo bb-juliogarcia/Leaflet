@@ -25,7 +25,7 @@
   "main": "dist/leaflet-src.js",
   "style": "dist/leaflet.css",
   "scripts": {
-    "preinstall": "/bin/sh ./build/preinstall.sh",
+    "install": "cd build && preinstall.sh",
     "test": "jake test",
     "build": "jake build",
     "release": "./build/publish.sh"
